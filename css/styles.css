@@ -1,0 +1,168 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-image: linear-gradient(#328ef0, white);
+  /*background-color: #328ef0;*/
+  /*z-index: -1;
+  position: absolute;*/
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: "Open Sans";
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 80%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #f5b674;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #74b2f5;
+}
+
+#AL-Experience {
+  background-image: linear-gradient(
+    white,
+    #bbdafa,
+    #91c2f7,
+    #91c2f7,
+    #bbdafa,
+    white
+  );
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  /*background-image: linear-gradient(#328ef0, white)*/
+}
+
+.Experience-image {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#Contact{
+    background-image: linear-gradient(
+        white,#328ef0
+      );
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.Contact-heading{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    background-color: #328ef0;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer p{
+    color: white;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1020px) {
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+  hr.rounded {
+    border-top: 8px solid white;
+    border-radius: 5px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    height: 50%;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%)
+}
